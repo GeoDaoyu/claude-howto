@@ -3,89 +3,89 @@
   <img alt="Claude How To" src="../../resources/logos/claude-howto-logo.svg">
 </picture>
 
-# PR Review Plugin
+# Плагін PR Review
 
-Complete PR review workflow with security, testing, and documentation checks.
+Повний робочий процес рев'ю PR з перевірками безпеки, тестування та документації.
 
-## Features
+## Функції
 
-✅ Security analysis
-✅ Test coverage checking
-✅ Documentation verification
-✅ Code quality assessment
-✅ Performance impact analysis
+✅ Аналіз безпеки
+✅ Перевірка покриття тестами
+✅ Верифікація документації
+✅ Оцінка якості коду
+✅ Аналіз впливу на продуктивність
 
-## Installation
+## Встановлення
 
 ```bash
 /plugin install pr-review
 ```
 
-## What's Included
+## Що включено
 
-### Slash Commands
-- `/review-pr` - Comprehensive PR review
-- `/check-security` - Security-focused review
-- `/check-tests` - Test coverage analysis
+### Слеш-команди
+- `/review-pr` — Комплексне рев'ю PR
+- `/check-security` — Рев'ю з фокусом на безпеці
+- `/check-tests` — Аналіз покриття тестами
 
-### Subagents
-- `security-reviewer` - Security vulnerability detection
-- `test-checker` - Test coverage analysis
-- `performance-analyzer` - Performance impact evaluation
+### Субагенти
+- `security-reviewer` — Виявлення вразливостей безпеки
+- `test-checker` — Аналіз покриття тестами
+- `performance-analyzer` — Оцінка впливу на продуктивність
 
-### MCP Servers
-- GitHub integration for PR data
+### MCP-сервери
+- Інтеграція з GitHub для даних PR
 
-### Hooks
-- `pre-review.js` - Pre-review validation
+### Хуки
+- `pre-review.js` — Передрев'юшна валідація
 
-## Usage
+## Використання
 
-### Basic PR Review
+### Базове рев'ю PR
 ```
 /review-pr
 ```
 
-### Security Check Only
+### Тільки перевірка безпеки
 ```
 /check-security
 ```
 
-### Test Coverage Check
+### Перевірка покриття тестами
 ```
 /check-tests
 ```
 
-## Requirements
+## Вимоги
 
 - Claude Code 1.0+
-- GitHub access
-- Git repository
+- Доступ до GitHub
+- Git-репозиторій
 
-## Configuration
+## Конфігурація
 
-Set up your GitHub token:
+Налаштуйте GitHub-токен:
 ```bash
 export GITHUB_TOKEN="your_github_token"
 ```
 
-## Example Workflow
+## Приклад робочого процесу
 
 ```
 User: /review-pr
 
 Claude:
-1. Runs pre-review hook (validates git repo)
-2. Fetches PR data via GitHub MCP
-3. Delegates security review to security-reviewer subagent
-4. Delegates testing to test-checker subagent
-5. Delegates performance to performance-analyzer subagent
-6. Synthesizes all findings
-7. Provides comprehensive review report
+1. Запускає pre-review хук (валідація git-репозиторію)
+2. Отримує дані PR через GitHub MCP
+3. Делегує рев'ю безпеки субагенту security-reviewer
+4. Делегує тестування субагенту test-checker
+5. Делегує продуктивність субагенту performance-analyzer
+6. Синтезує всі знахідки
+7. Надає комплексний звіт рев'ю
 
-Result:
-✅ Security: No critical issues found
-⚠️  Testing: Coverage is 65%, recommend 80%+
-✅ Performance: No significant impact
-📝 Recommendations: Add tests for edge cases
+Результат:
+✅ Безпека: Критичних проблем не знайдено
+⚠️  Тестування: Покриття 65%, рекомендовано 80%+
+✅ Продуктивність: Суттєвого впливу немає
+📝 Рекомендації: Додати тести для граничних випадків
 ```

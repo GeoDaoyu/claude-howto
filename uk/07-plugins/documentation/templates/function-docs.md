@@ -1,38 +1,38 @@
-# Function: `functionName`
+# Функція: `functionName`
 
-## Description
-Brief description of what the function does.
+## Опис
+Короткий опис що робить функція.
 
-## Signature
+## Сигнатура
 ```typescript
 function functionName(param1: Type1, param2: Type2): ReturnType
 ```
 
-## Parameters
+## Параметри
 
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| param1 | Type1 | Yes | Description of param1 |
-| param2 | Type2 | No | Description of param2 |
+| Параметр | Тип | Обов'язковий | Опис |
+|----------|-----|-------------|------|
+| param1 | Type1 | Так | Опис param1 |
+| param2 | Type2 | Ні | Опис param2 |
 
-## Returns
-**Type**: `ReturnType`
+## Повертає
+**Тип**: `ReturnType`
 
-Description of what is returned.
+Опис того, що повертається.
 
-## Throws
-- `Error`: When invalid input is provided
-- `TypeError`: When wrong type is passed
+## Кидає виключення
+- `Error`: При невалідному введенні
+- `TypeError`: При неправильному типі
 
-## Examples
+## Приклади
 
-### Basic Usage
+### Базове використання
 ```typescript
 const result = functionName('value1', 'value2');
 console.log(result);
 ```
 
-### Advanced Usage
+### Просунуте використання
 ```typescript
 const result = functionName(
   complexParam1,
@@ -40,11 +40,11 @@ const result = functionName(
 );
 ```
 
-## Notes
-- Additional notes or warnings
-- Performance considerations
-- Best practices
+## Нотатки
+- Додаткові нотатки або попередження
+- Міркування щодо продуктивності
+- Найкращі практики
 
-## See Also
-- [Related Function](#)
-- [API Documentation](#)
+## Див. також
+- [Пов'язана функція](#)
+- [API-документація](#)

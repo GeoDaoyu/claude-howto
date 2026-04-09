@@ -1,32 +1,32 @@
 # [METHOD] /api/v1/[endpoint]
 
-## Description
-Brief explanation of what this endpoint does.
+## Опис
+Короткий опис що робить цей ендпоінт.
 
-## Authentication
-Required authentication method (e.g., Bearer token).
+## Автентифікація
+Необхідний метод автентифікації (напр., Bearer token).
 
-## Parameters
+## Параметри
 
-### Path Parameters
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| id | string | Yes | Resource ID |
+### Параметри шляху
+| Назва | Тип | Обов'язковий | Опис |
+|-------|-----|-------------|------|
+| id | string | Так | ID ресурсу |
 
-### Query Parameters
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| page | integer | No | Page number (default: 1) |
-| limit | integer | No | Items per page (default: 20) |
+### Параметри запиту
+| Назва | Тип | Обов'язковий | Опис |
+|-------|-----|-------------|------|
+| page | integer | Ні | Номер сторінки (за замовч.: 1) |
+| limit | integer | Ні | Елементів на сторінку (за замовч.: 20) |
 
-### Request Body
+### Тіло запиту
 ```json
 {
   "field": "value"
 }
 ```
 
-## Responses
+## Відповіді
 
 ### 200 OK
 ```json
@@ -61,7 +61,7 @@ Required authentication method (e.g., Bearer token).
 }
 ```
 
-## Examples
+## Приклади
 
 ### cURL
 ```bash
@@ -92,10 +92,10 @@ response = requests.get(
 data = response.json()
 ```
 
-## Rate Limits
-- 1000 requests per hour for authenticated users
-- 100 requests per hour for public endpoints
+## Обмеження частоти запитів
+- 1000 запитів на годину для автентифікованих користувачів
+- 100 запитів на годину для публічних ендпоінтів
 
-## Related Endpoints
+## Пов'язані ендпоінти
 - [GET /api/v1/related](#)
 - [POST /api/v1/related](#)

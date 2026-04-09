@@ -1,14 +1,14 @@
 ---
 name: Security Check
-description: Run security-focused code review
+description: Запуск рев'ю коду з фокусом на безпеці
 ---
 
-# Security Check
+# Перевірка безпеки
 
-Perform focused security analysis on code changes:
+Цілеспрямований аналіз безпеки змін коду:
 
-1. Authentication/authorization checks
-2. Data exposure risks
-3. Injection vulnerabilities
-4. Cryptographic weaknesses
-5. Sensitive data in logs
+1. Перевірки автентифікації/авторизації
+2. Ризики витоку даних
+3. Вразливості ін'єкцій
+4. Криптографічні слабкості
+5. Чутливі дані в логах

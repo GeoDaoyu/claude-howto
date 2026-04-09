@@ -1,39 +1,39 @@
-# ADR [Number]: [Title]
+# ADR [Номер]: [Назва]
 
-## Status
-[Proposed | Accepted | Deprecated | Superseded]
+## Статус
+[Запропоновано | Прийнято | Застаріло | Замінено]
 
-## Context
-What is the issue that we're seeing that is motivating this decision or change?
+## Контекст
+Яка проблема спонукає це рішення або зміну?
 
-## Decision
-What is the change that we're proposing and/or doing?
+## Рішення
+Яку зміну ми пропонуємо та/або впроваджуємо?
 
-## Consequences
-What becomes easier or more difficult to do because of this change?
+## Наслідки
+Що стає простішим або складнішим через цю зміну?
 
-### Positive
-- Benefit 1
-- Benefit 2
+### Позитивні
+- Перевага 1
+- Перевага 2
 
-### Negative
-- Drawback 1
-- Drawback 2
+### Негативні
+- Недолік 1
+- Недолік 2
 
-### Neutral
-- Consideration 1
-- Consideration 2
+### Нейтральні
+- Міркування 1
+- Міркування 2
 
-## Alternatives Considered
-What other options were considered and why were they not chosen?
+## Розглянуті альтернативи
+Які інші варіанти було розглянуто та чому їх не обрано?
 
-### Alternative 1
-Description and reason for not choosing.
+### Альтернатива 1
+Опис та причина відхилення.
 
-### Alternative 2
-Description and reason for not choosing.
+### Альтернатива 2
+Опис та причина відхилення.
 
-## References
-- Related ADRs
-- External documentation
-- Discussion links
+## Посилання
+- Пов'язані ADR
+- Зовнішня документація
+- Посилання на обговорення

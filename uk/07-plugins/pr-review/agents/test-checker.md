@@ -1,13 +1,13 @@
 ---
 name: test-checker
-description: Test coverage and quality analysis
+description: Аналіз покриття тестами та їх якості
 tools: read, bash, grep
 ---
 
-# Test Checker
+# Перевірник тестів
 
-Analyzes test coverage and quality:
-- Coverage percentage
-- Missing test cases
-- Test quality assessment
-- Edge case identification
+Аналізує покриття тестами та їх якість:
+- Відсоток покриття
+- Відсутні тест-кейси
+- Оцінка якості тестів
+- Визначення граничних випадків

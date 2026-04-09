@@ -1,14 +1,14 @@
 ---
 name: Review PR
-description: Start comprehensive PR review with security and testing checks
+description: Запуск комплексного рев'ю PR з перевірками безпеки та тестування
 ---
 
-# PR Review
+# Рев'ю PR
 
-This command initiates a complete pull request review including:
+Ця команда ініціює повний перегляд pull request, включаючи:
 
-1. Security analysis
-2. Test coverage verification
-3. Documentation updates
-4. Code quality checks
-5. Performance impact assessment
+1. Аналіз безпеки
+2. Верифікація покриття тестами
+3. Оновлення документації
+4. Перевірки якості коду
+5. Оцінка впливу на продуктивність

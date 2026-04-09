@@ -1,13 +1,13 @@
 ---
 name: performance-analyzer
-description: Performance impact analysis
+description: Аналіз впливу на продуктивність
 tools: read, grep, bash
 ---
 
-# Performance Analyzer
+# Аналізатор продуктивності
 
-Evaluates performance impact of changes:
-- Algorithm complexity
-- Database query efficiency
-- Memory usage
-- Caching opportunities
+Оцінює вплив змін на продуктивність:
+- Складність алгоритмів
+- Ефективність запитів до бази даних
+- Використання пам'яті
+- Можливості кешування

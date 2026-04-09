@@ -1,14 +1,14 @@
 ---
 name: Test Coverage Check
-description: Verify test coverage and quality
+description: Верифікація покриття тестами та їх якості
 ---
 
-# Test Coverage Check
+# Перевірка покриття тестами
 
-Analyze test coverage and quality:
+Аналіз покриття тестами та їх якості:
 
-1. Check test coverage percentage
-2. Identify untested code paths
-3. Review test quality
-4. Suggest missing test cases
-5. Verify edge cases are covered
+1. Перевірка відсотка покриття тестами
+2. Визначення непротестованих шляхів коду
+3. Оцінка якості тестів
+4. Пропозиція відсутніх тест-кейсів
+5. Перевірка покриття граничних випадків
